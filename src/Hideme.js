@@ -26,7 +26,7 @@ class Hideme extends Component {
             let { children } = this.props;
            
             return (
-             <p onClick={ this.handleClick }>{ clicks ? null : children }</p> 
+             <button onClick={ this.handleClick }>{ clicks ? null : children }</button> 
             )
         };
 

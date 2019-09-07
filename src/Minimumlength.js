@@ -6,9 +6,12 @@ class MinimumLength extends Component {
     constructor(props){
         super(props);
 
-        this.state={input:"test value"};
+        this.state={
+            input:"",
+            
+        };
 
-        this.handleChange=this.handleChange.bind(this);
+        
 
     }
 

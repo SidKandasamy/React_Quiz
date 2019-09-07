@@ -16,8 +16,8 @@ class Count extends Component {
 
 
     handleClickIncrement() {
-        let { clicks } = this.state;
-        let { step } = this.props;
+        let { clicks } = this.state; //store state
+        let { step } = this.props; // store props
         this.setState({ clicks: clicks + step });
     }
     

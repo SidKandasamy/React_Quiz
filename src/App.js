@@ -14,7 +14,7 @@ function App() {
       <h1 class="text-muted">My quiz</h1>
       <Multiplier 
 
-      x="5"  y="7"
+      x={5}  y={7}
 
       />
 
